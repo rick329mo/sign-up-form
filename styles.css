@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Norse;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+    
+}
+
+h1 {
+    font-family: Norse, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.sidebar {
+    background-color: darkgray;
+}
