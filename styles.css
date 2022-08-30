@@ -3,15 +3,53 @@
     src: url(fonts/Norse-Bold.otf);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
 body {
-    
+    margin: 0;
 }
 
 h1 {
     font-family: Norse, 'Times New Roman', Times, serif;
     color: #fff;
+    font-size: 6rem;
+    padding-left: .1em;
 }
 
 .sidebar {
     background-color: darkgray;
+    background-image: url(images/leaves.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    background-color: rgba(20, 19, 19, 0.4);
+    
+}
+
+.odin {
+    max-width: 25%;
+
+}
+
+.main {
+    width: 60%;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    
 }
